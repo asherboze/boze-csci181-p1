@@ -76,14 +76,13 @@ main {
 
 .body_text{
     font-family: "Libre Baskerville", Times, sans-serif;
-    display: inline-block;
     margin: 0 auto;
     text-align: center;
     width: fit-content;
-    margin: 0 auto;
     padding: 10px;
     display: flex; 
     justify-content: center;
+
 }
 
 .body_text p{
@@ -107,14 +106,16 @@ main {
     display: block;
     border-radius: 12px;
     width: 800px; 
-    margin: 20px; 
-    margin-top: 20px; 
+    margin:15px;
     border: black solid;
 }
 
 .body_text button{
     border: black solid;
     padding: 5px;
+    width: fit-content;
+    margin: 15px;
+    height: 50px;
     font-family: "Libre Baskerville", Times, sans-serif;
     border-radius: 6px;
     background-color: yellow;
@@ -128,7 +129,7 @@ main {
 .advertisement{
     width: 50%;
     font-size: 16px;
-    margin-left: 25px;
+    margin: 25px;
     border: black solid;
     border-radius: 12px;
     padding: 5px;
@@ -159,6 +160,44 @@ main {
 }
 
 .advertisement button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#contact_us{
+    border: black solid;
+    width:fit-content;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 6px;
+    background-color:yellow;
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content:center;
+}
+
+#contact_us input{
+    border: black solid;
+    border-radius: 4px;
+}
+
+#contact_us textarea{
+    border: black solid;
+    border-radius: 4px;
+}
+
+#contact_us button{
+    border: black solid;
+    padding: 5px;
+    font-family: "Libre Baskerville", Times, sans-serif;
+    border-radius: 6px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+#contact_us button:hover{
     background-color: lightblue;
     cursor: pointer;
 }
